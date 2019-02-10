@@ -5,6 +5,7 @@ function guess(){
     while true;
     do
         echo "pleas enter your guess"
+        
         read  number
         if [ $number -lt $true_ans ]
         then
