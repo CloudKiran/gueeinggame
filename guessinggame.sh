@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function guess(){
-    true_ans=$(ls -l |grep "^-"|wc -l)
+   true_ans=$(ls -l |grep "^-"|wc -l)
     while true;
     do
         echo "pleas enter your guess"
